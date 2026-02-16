@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import aboutImg from "@/assets/images/about.jpg"
 
 export default function About() {
   return (

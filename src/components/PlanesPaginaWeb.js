@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../styles/planes_pagina_web.css"; // Asegúrate de importar los estilos
 
 const plans = [
   {

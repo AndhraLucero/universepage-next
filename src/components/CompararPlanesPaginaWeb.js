@@ -1,5 +1,4 @@
-import React from "react";
-import "../styles/pricing.css"; // Asegúrate de que este archivo tenga estilos como .pricing-table, .table-cell, etc.
+
 
 const features = [
   {

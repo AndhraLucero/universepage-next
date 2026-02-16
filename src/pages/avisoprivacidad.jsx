@@ -1,15 +1,14 @@
 'use client'
 
 import Footer from '@/components/Footer'
-import styles from './aviso-de-privacidad.module.css'
 import Link from 'next/link'
 
 export default function AvisoDePrivacidadPage() {
   return (
     <>
-      <section className={styles.headers}>
+      <section>
         <div className='container'>
-          <div className={styles.title}>
+          <div >
             <h1>Aviso de privacidad</h1>
             <p>
               Nuestro propósito es lo que nos hace levantarnos cada mañana, <br />
@@ -19,7 +18,7 @@ export default function AvisoDePrivacidadPage() {
         </div>
       </section>
 
-      <section className={styles.aviso_privacidad}>
+      <section >
         <div className='container'>
           <div>
             <p>

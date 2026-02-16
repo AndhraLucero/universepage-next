@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://universepage.com.mx
+
+# Sitemaps
+Sitemap: https://universepage.com.mx/sitemap.xml
