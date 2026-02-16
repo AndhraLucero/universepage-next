@@ -1,0 +1,121 @@
+@import url('https://cdn-uicons.flaticon.com/2.0.0/uicons-brands/css/uicons-brands.css');
+.footer{
+    width: 100%;
+    padding-top: 6rem;
+    background-image: radial-gradient(at top center, #2874A6 30%, #111 100%);
+    color: #fff;
+}
+.footer_content{
+    width: 100%;
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.footer_main_box img{
+    /*width: 200px;*/
+    width: 100%;
+}
+.footer_main_box p{
+    font-size: 16px;
+    /*color: #7C7C7C;*/
+    color: #fcfcfc;
+    font-weight: 400;
+    margin-bottom: 0rem;
+}
+.footer_container{
+    display: flex;
+    width: 75%;
+    justify-content: space-around;
+}
+.footer_main_box{
+    width: 25%;
+    align-content: space-between;
+    display: grid;
+}
+.footer_main_box img {
+    /* width: 200px; */
+    width: 55%;
+    align-self: center;
+}
+.footer_box {
+    align-content: center;
+    display: grid;
+    width: 25%;
+    align-content: space-between;
+    padding-left: 2rem;
+}
+.footer_box a{
+    padding: .5rem 0rem;
+    list-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    /*color: #7C7C7C;*/
+    color: #fcfcfc;
+    font-weight: 400;
+}
+
+.footer_box h3{
+    /*color: #747474;*/
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: .5rem;
+    font-size: 20px;
+}
+
+.footer_copyright{
+    border-top: 1px solid #ffffff21;
+    padding: 1.2rem 0rem;
+    text-align: center;
+    color: #fff;
+}
+.footer_copyright label{
+    margin-right: 5px;
+    font-size: 16px;
+}
+.social{
+    display: flex;
+}
+.social_icon{
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    padding: 7px;
+    border-radius: 25px;
+    border: 1px solid #fff;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-right: 10px;
+}
+.social_icon i{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+}
+.footer_main_box a{
+    color: #FFF;
+    text-decoration: none;
+    margin-top: 15px;
+}
+@media (max-width: 768px){
+    .footer_content{
+        display: block;
+    }  
+    .footer_main_box{
+        width: 100%;
+    }
+    .footer_container{
+        width: 100%;
+        display: block;
+    }
+    .footer_box{
+        width: 100%;
+    }
+    .footer_box ul{
+        margin-left: 0rem;
+        padding-left: 0rem;
+    }
+    .footer_copyright label{
+        font-size: 14px;
+    }
+}

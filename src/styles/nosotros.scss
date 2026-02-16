@@ -1,0 +1,140 @@
+
+.historia{
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+}
+.historia h3{
+    font-size: 22px;
+    color: #2874A6;
+}
+.nuestra_historia{
+    width: 100%;
+    display: flex;
+}
+.historia_text{
+    padding: 0rem 2rem 2rem 0rem;
+    width: 50%;
+
+}
+.historia_mision{
+    /*
+    background-image: radial-gradient(at top center, #2874A6 30%, #111 100%);
+    color: #FFF;
+    padding: 2rem;
+    */
+    width: 50%;
+}
+
+.mision {
+    /*background: #f1f1f1;*/
+    /*background: linear-gradient(90deg, #2874a6 0, #2874a6 80%, #545454 0, #545454);*/
+    background-image: radial-gradient(at top center, #2874A6 30%, #111 100%);
+    padding: 4rem 0rem;
+}
+.mision_content h3{
+    font-size: 22px;
+    color: #2874A6;
+}
+.mision_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mision_content{
+    display: flex;
+    background:#fff;
+    padding: 2rem;
+    margin: .5rem;
+    width: 50%;
+    justify-content: space-between;
+}
+.mision_content_img{
+    width: 60px;
+    margin: .2rem;
+}
+.mision_content_img img{
+    width: 100%;
+    min-width: 60px;
+}
+.mision_content_text{
+    width: 80%;
+}
+.valores_title{
+    text-align: center;
+    margin: .5rem 0rem;
+    margin-bottom: 2rem;
+}
+.valores{
+    background: #F7F7F7;
+    padding: 6rem 0rem;
+
+}
+.valores_list{
+    display: flex;
+}
+.valores_box {
+    background: #FFF;
+    padding: .8rem;
+    text-align: center;
+    margin: .2rem;
+    width: 33%;
+}
+.valores_box h3{
+    font-size: 22px;
+    color: #2874A6;
+}
+.valores_box img{
+    max-width: 66px;
+}
+
+.nuestro_team{
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+.nuestro_team h3{
+    font-size: 22px;
+    color: #2874A6;
+}
+.team{
+    display: flex;
+    width: 100%;
+}
+.valores_title h3{
+    font-size: 22px;
+    color: #2874A6;
+}
+.box_team{
+    display: grid;
+}
+.box_team_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_team_img img{
+    width: 59%;
+    padding: 15px;
+}
+.box_team label{
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .nuestra_historia{
+        display: block;
+    }
+    .historia_text{
+        width: 100%;
+    }
+    .historia_mision{
+        width: 100%;
+    }
+    .valores_list{
+        display: block;
+    }
+    .team{
+        display: block;
+    }
+}

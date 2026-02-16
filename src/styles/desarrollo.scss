@@ -1,0 +1,61 @@
+.desarrollo {
+    width: 100%;
+    display: flex;
+    margin-top: 6rem;
+}
+.desarrollo_info {
+    width: 50%;
+    padding-right: 1rem;
+}
+.slider_desarrollo{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.desarrollo_slider_container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.desarrollo_info img{
+    width: 100%;
+    filter: brightness(0.8);
+    
+}
+.slide-title{
+    position: absolute;
+    top: 5%;
+    font-size: 2rem;
+    font-weight: 500;
+    color: #FFF;
+    padding: 1rem;
+}
+
+.slide-text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: initial;
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFF;
+    padding: 1rem;
+}
+.slide-subtext{
+    position: absolute;
+    top: 90%;
+    right: 8%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFF;
+}
+
+
+
+
+/*
+
+https://clickaqui.com.mx/servicios/administracion-paginas-web/
+https://www.sonoradecrear.com/administrador-de-sitios-en-la-web-plan-intermedio/#:~:text=El%20plan%20Administrador%20de%20Sitios%20Web%20Wordpress,seguro%20de%20que%20su%20sitio%20web%20de
+*/

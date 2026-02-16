@@ -1,0 +1,356 @@
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-straight/css/uicons-regular-straight.css');
+.ventajas_section{
+    padding: 6rem 4rem;
+}
+.categorias{
+    width: 100%;
+    padding: 6rem 0rem;
+    background-color: #f0f8ff;
+    /*background-color: #F4F4F4;*/
+}
+.title_categorias{
+    text-align: center;
+    justify-items: center;
+    display: grid;
+    margin-bottom: 3rem;
+}
+.description_categorias{
+    width: 60%;
+}
+.categoria_container{
+    display: flex;
+}
+.categoria{
+    width: 25%;
+    align-content: center;
+}
+.box_categoria{
+
+}
+.title_categoria h3{
+    color: #545454;
+    font-size: 18px;
+    padding: 1.5rem .5rem;
+    margin-bottom: 0rem;
+    cursor: pointer;
+}
+
+.box_categoria.active .title_categoria h3{
+    color: #2874A6;
+}
+.content_categoria{
+    width: 75%;
+}
+.box_categoria {
+    border-left: 3px solid #ddd;
+}
+.box_categoria.active {
+    border-left: 3px solid #2874A6; /* ejemplo de borde azul para el elemento activo */ 
+}
+.beneficios{
+    padding: 4rem 0rem;
+}
+/*
+#categorias {
+    margin-top: 6rem;
+    
+}*/
+
+.categorias {
+    padding: 6rem 0rem;
+    
+}
+.pagina_web{
+    width: 100%;
+    display: flex;
+}
+.box_pagina_web{
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 10px;
+    border-radius: 3px;
+    background: #fff;
+}
+.card_pagina_web_img img{
+    width: 100%;
+}
+.card_pagina_web_title{
+    padding: 1rem;
+    color: #2874A6;
+}
+.card_pagina_web_title h2{
+    font-size: 1.3rem;
+    margin-bottom: 0rem;
+}
+.card_pagina_web_text{
+    padding: 0rem 1rem;
+}
+.btn_serviceweb {
+    padding: 10px 32px;
+    background: #2874A6;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.btn_serviceweb:hover {
+    border: 1px solid #2874A6;
+    background: #fff;
+    color: #2874A6;
+    border-radius: 3px;
+}
+.card_btn{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+}
+.herramientas_tecnologias{
+    background: #F7F7F7
+}
+.herramientas{
+    width: 100%;
+    display: grid;
+    margin-top: 4rem;
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.herramientas_text{
+    display: grid;
+}
+.herramientas_text h2{
+    text-align: center;
+    color: #2874A6;
+}
+.herramientas_text_content{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.herramientas_text p{
+    text-align: center;
+    width: 50%;
+}
+
+
+.herramientas_img{
+    display: flex;
+    justify-content: center;
+}
+
+.herramientas_img img{
+    width: 80px;
+    margin: 0rem 1rem;
+}
+.herramientas_box{
+    display: grid;
+    padding: 1rem;
+}
+.herramientas_box p{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.ventajas{
+    width: 100%;
+    display: flex;
+}
+.box_ventajas{
+    width: 50%;
+    padding-right: 3rem;
+    text-align: justify;
+}
+.box_ventajas label{
+    color: #2874A6;
+    font-weight: 600;
+}
+.item_ventaja{
+    margin-top: 1rem;
+}
+
+.ventajas_title {
+    width: 100%;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.ventajas_title h4{
+    text-align: center;
+    color: #2874A6;
+}
+.ventajas_title_text{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.ventajas_title_text p{
+    text-align: center;
+    width: 50%;
+}
+.card_pagina_web_img {
+    border-bottom: 1px solid #ddd;
+}
+ /* Planes web */
+
+ .planes_web{
+    width: 100%;
+    padding: 6rem 0rem;
+    background-color: #f3f3f3;
+ }
+ .planes_web_container{
+    display: flex;
+ }
+ .planes_web_content:nth-child(1){
+    width: 66%;
+    border-radius: 3px;
+ }
+ .planes_web_content:nth-child(2){
+    padding: 1rem;
+    margin: 1px;
+    background: #fff;
+    border-radius: 3px;
+ }
+ .planes_web_box h3{
+    font-size: 18px;
+    margin-bottom: 1rem;
+ }
+ .planes_web_box ul{
+    padding-left: 0rem;
+ }
+ .planes_web_box ul li{
+    list-style: none;
+    margin-bottom: .5rem;
+ }
+ .planes_web_box i{
+    color: #2874A6;
+ }
+ .box_plan_content{
+    width: 100%;
+    display: flex;
+ }
+ .box_plan{
+    width: 50%;
+    padding: 1rem;
+    margin: 1px;
+    background: #fff;
+ }
+ .box_plan h3{
+    font-size: 18px;
+    margin-bottom: 1rem;
+ }
+ .box_plan i{
+    color: #2874A6;
+    margin-right: 5px;
+ }
+ .box_plan_precio{
+    margin-top: 1rem;
+ }
+ .box_plan p{
+    font-size: 22px;
+    font-weight: 500;
+ }
+ .box_plan label{
+    margin-bottom: .3rem;
+ }
+ .box_plan_precio p label{
+    font-size: 14px;
+    color: #6c6c6c;
+ }
+ .info_visible_content{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .info_visible_box{
+    width: 33%;
+    padding: .5rem;
+ }
+ .info_visible_box h4{
+    font-size: 18px;
+ }
+ .info_visible_box i{
+    font-size: 2rem;
+    color: #2874A6; 
+ }
+.nota_web_service_content{
+    width: 100%;
+    padding-bottom: 2rem;
+    background-color: #f3f3f3;
+}
+ p.nota_web_service{
+    text-align: center;
+    font-size: 16px;
+    color: #545454;
+    font-weight: 500;
+
+}
+.nota_web_service a{
+    text-align: center;
+    font-size: 16px;
+    color: #2874A6;
+    font-weight: 500;
+    text-decoration: none;
+}
+.box_plan_precio .btn_about{
+    padding: 8px 20px;
+    background: #2874A6;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin: 2rem 0rem;
+    border-radius: 3px;
+}
+
+.box_plan_precio .btn_about:hover{
+    color: #2874A6;
+    background: #fff;
+    border: 1px solid #2874A6;
+}
+
+@media screen and (max-width:982px){
+	.planes_web_container {
+        display: block;
+    }
+    .planes_web_content:nth-child(1){
+        width: 100%;
+    }
+}
+@media (max-width:768px) {
+    .box_plan_content {
+        width: 100%;
+        display: block;
+    }
+    .box_plan{
+        width: 100%;
+        margin: 1rem;
+    }
+    .content_categoria {
+        width: 100%;
+    }
+    .planes_web_content:nth-child(2){
+        margin: 1rem;
+    }
+    .description_categorias {
+        width: 100%;
+    }
+    .categoria_container {
+        display: block;
+    }
+    
+    .categoria {
+        width: 100%;
+        padding-bottom: 2rem;
+    }
+    .info_visible_content {
+        display: block;
+        
+    }
+    .info_visible_box {
+        width: 100%;
+        padding: .5rem;
+    }
+}

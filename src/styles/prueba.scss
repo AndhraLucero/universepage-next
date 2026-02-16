@@ -1,0 +1,383 @@
+@import url('https://cdn-uicons.flaticon.com/2.1.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
+.navbar {
+  align-items: center;
+  background: #fff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  z-index: 9;
+  box-shadow: rgba(0, 12, 43, 0.05) 0px 4px 8px;
+  border-bottom: 1px solid #ddd;
+  padding: 0;
+}
+.navbar-menu-open .menu_img_show{
+ /* background-image: url('../images/logo.png');*/
+  width: 150px;
+  height: 60px;
+  background-position: center center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  align-items: center;
+  display: flex;
+  color: #fff;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 10px;
+}
+
+.navbar-toggler, .opc_menu {
+  display: none;
+}
+.navbar-toggler,
+.navbar-toggler:hover {
+  border: none;
+}
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+.navbar-item {
+  margin: 0.5rem .5rem;
+  justify-content: space-between;
+  display: flex;
+  font-size: 13px;
+  align-items: center;
+}
+
+.navbar-item i{
+  color: #2874A6;
+  display: flex;
+  align-items: center;
+  margin-left: 2px;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover,.navbar-link:hover i {
+  color: #ccc;
+}
+
+.box_menu_right{
+  display: flex;
+  align-items: center;
+}
+.main_menu{
+  display: flex;
+  list-style: none;
+  flex-direction: row;
+  align-items: center;
+}
+.navbar-content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.content_menu_right{            
+  display: flex;
+  align-items: center;
+}
+.navbar-item button{
+  border: none;
+  background: transparent;
+}
+i.fi.fi-rs-truck-moving {
+  margin-right: 5px;
+  font-size: 15px;
+}
+i.fi.fi-rs-document {
+  margin-right: 5px;
+  font-size: 15px;
+}
+.menu_img_show a{
+  color: #2874A6;
+}
+.menu_img_show a:hover{
+  color: #2874A6;
+}
+.navbar-item:hover .submenu {
+  box-shadow: 0 0 50px #1414141a;
+  display: block;
+  position: absolute;
+  top: 40px;
+}
+.submenu a{
+  padding: 6px 6px;
+}
+.submenu a:hover{
+  background: #f1f1f1;
+
+  border-radius: 3px;
+}
+/*
+.about_text_box h2{
+  font-size: 2rem;
+  color: #2874A6;
+}
+*/
+.wp-btn i{
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+  color: #fff;
+}
+.wp-btn{
+  background: rgb(40,116,166);
+  background: linear-gradient(90deg, rgba(40,116,166,1) 35%, rgba(15,53,77,1) 100%);
+}
+
+.menu_responsive_content {
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  height: 60px;
+}
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+  }
+  .navbar-brand {
+      width: 100%;
+  }
+  .menu_img_show{
+      /*background-image: url('../assets/images/logo.png');*/
+      width: 150px;
+      height: 45px;
+      background-position: center center;
+      background-size: 100%;
+      background-repeat: no-repeat;
+      align-items: center;
+      display: flex;
+      font-size: 25px;
+      color: #2874A6;
+      font-weight: bold;
+  }
+  .navbar-item:hover .submenu {
+    position: relative;
+    top: 0px;
+  }
+  .navbar-item:hover .submenu {
+    box-shadow: none;
+
+  }
+
+
+  .navbar-toggler, .opc_menu {
+    display: block;
+  }
+  .navbar-toggler i{
+    color: #2874A6;
+    display: flex;
+  }
+
+  .navbar-menu-open {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    height: 100%;
+    background: rgb(40,116,166);
+    background: linear-gradient(90deg, rgba(40,116,166,1) 35%, rgba(15,53,77,1) 100%);
+  }
+ 
+  .navbar-menu-open.navbar-menu {
+    transform: translateX(0);
+  }/*
+  .navbar-menu-open li  {
+      border-bottom: 1px solid #fff;
+  }
+*/
+  .opc_menu{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      margin-bottom: 2rem;
+      padding: 0px 10px;
+  }
+  .menu_cerrar_option{
+      display: flex;
+  }
+  .idioma_option{
+      color: #fff;
+      align-items: center;
+      display: flex;
+      margin-right: 2rem;
+  }
+
+  .idioma_option i{
+      display: flex;
+  }
+  .idioma_option label{
+      margin-right: 3px;
+  }
+  .btn_cerrar_option{
+      color: #fff;
+      align-items: center;
+      display: flex;
+  }
+ 
+  .btn_cerrar_option i{
+      display: flex;
+  }
+  .navbar-link {
+      color: #707070;
+      text-decoration: none;
+      transition: color 0.3s ease;      
+  }
+    
+  .navbar-item {
+
+      width: 100%;
+  }
+  .main_menu{
+      display: block;
+      width: 100%;
+  }
+  .content_menu_right{            
+      display: none;
+  }
+  .navbar-item i {
+    color: #fff;
+  }
+  /*
+  .menu_items li {
+    padding: 0px;
+  }*/
+  .text_call_to_action h3{
+    font-size: 1.4rem;
+  }
+  .about_img img{
+    width: 100%;
+    background: transparent;
+    margin-left: 0px;
+    margin-top: 0px;
+    padding: 0rem;
+    box-shadow: none;
+  }
+  .services {
+    margin-top: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .more_services {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .cronograma_text p{
+  padding: 0;
+  }
+  .cronograma_text {
+    width: 100%;
+    margin-bottom: 2rem;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .faq {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .menu_items li a{
+    text-transform: none;
+  }
+  .wp-btn{
+    background: transparent;
+  }
+  .historia_text, .historia_mision{
+    padding: 1rem 1rem 1rem 1rem;
+  }
+  .historia_text p, .historia_mision p{
+    font-size: 14px;
+    color: #545454;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: left;
+  }
+  .historia {
+    margin-top: 2rem;
+  }
+  .historia_title{
+    padding: 1rem 1rem 0rem 1rem;
+  }
+  .valores_title, .valores_list{
+    padding: 1rem 1rem 0rem 1rem;
+  }
+  .nuestro_team {
+    margin-top: 4rem;
+    padding: 1rem 1rem 0rem 1rem;
+  }
+  .submenu{
+    display: block;
+  }
+  .submenu_list{
+    background: transparent;
+  }
+  .serviceOpc{
+    display: block;
+  }
+
+  /*Pagina web*/
+  .pagina_web {
+    display: block;
+  }
+  .ventajas {
+    display: block;
+  }
+  .ventajas_section {
+    padding: 2rem 1rem;
+  }
+  .ventajas_title h4 {
+    text-align: left;
+  }
+  .ventajas_title_text p {
+    text-align: left;
+    width: 100%;
+}
+.box_ventajas {
+  width: 100%;
+  padding-right: 3rem;
+  text-align: left;
+}
+  .ventajas_title_text p {
+    text-align: left;
+    width: 100%;
+  }
+
+  .herramientas_text p {
+    text-align: center;
+    width: 100%;
+}
+.herramientas_img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+  
+
+}

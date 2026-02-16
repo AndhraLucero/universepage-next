@@ -1,0 +1,157 @@
+
+
+
+/* Plsnd */
+.plans_hosting{
+    padding: 6rem 0rem;
+}
+.plans{
+    text-align: center;
+}
+.plans h1{
+    font-size: 2rem;
+}
+.planes_hosting{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.plan_uno,.plan_dos, .plan_tres{
+    width: 33%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 10px;
+}
+.plan_amount{
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    margin-top: 1rem;
+    padding: 0rem 1rem;
+}
+.plan_amount h2{
+    background: linear-gradient(#2874A6, #000000);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-weight: 600;
+}
+.plan_amount p:nth-child(1){
+    font-size: 1rem;
+
+}
+.plan_amount strong{
+    font-size: 1.5rem;
+    color: #2874A6;
+}
+
+.plan_amount label{
+    color: #2874A6;
+    min-height: 50px;
+}
+.plan_amount a{
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 12px;
+    background: #2874A6;
+    border: none;
+    border-radius: 3px;
+}
+.plan_amount a:hover {
+    border: 1px solid #2874A6;
+    background: #fff;
+    color: #2874A6;
+    border-radius: 3px;
+}
+.plan_content_items{
+    width: 100%;
+    padding: 1rem 2rem;
+}
+.plan_items{
+    display: flex;
+    margin: 10px 0px;
+}
+.plan_item_left{
+    background-color: #E6EDF0;
+    min-width: 50px;
+    border-radius: 3px;
+    margin-right: 1rem;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+i.fi.fi-rr-infinity {
+    display: flex;
+}
+.beneficios_cpanel h2{
+    font-size: 2rem;
+}
+.beneficios_cpanel h3{
+    font-size: 22px;
+    color: #2874A6;
+}
+.beneficios_planes_title h2{
+    font-size: 22px;
+    color: #2874A6;
+    margin-top: 2rem;
+}
+.beneficios_planes{
+    display: flex;
+}
+.beneficios_planes img{
+    width: 100px;
+}
+.box_beneficios_planes{
+    width: 25%;
+    padding: 1rem;
+    text-align: center;
+}
+/* Cpanel */
+.cpanel{
+    display: flex;
+    padding: 6rem 0rem;
+}
+.beneficios_cpanel{
+    width: 50%;
+}
+.beneficios_cpanel ul{
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 2rem;
+ }
+.beneficios_cpanel ul li{
+   list-style: none;
+   margin: 0.5rem 0rem;
+}
+.beneficios_cpanel img{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.box_beneficios_title{
+    font-weight: 500;
+    margin: 0.5rem 0rem;
+}
+@media (max-width: 768px){
+    .planes_hosting{
+        display: block;
+    }
+    .plan_uno, .plan_dos, .plan_tres{
+        width: 100%;
+        margin: 10px 0px;
+    }
+    .beneficios_planes {
+        display: block;
+    }
+    .box_beneficios_planes {
+        width: 100%;
+    }
+    .cpanel{
+        display: block;
+    }
+    .beneficios_cpanel {
+        width: 100%;
+    }
+}
