@@ -76,13 +76,12 @@ export default function Header() {
             <Link href="/">
               <div className="menu_img_show_carga">UNIVERSEPAGE</div>
             </Link>
-            <button
-              onClick={toggleMenu}
-              aria-label="menu"
-              className="btn_menu_responsive_carga"
-            >
-              <i className="fi fi-br-menu-burger"></i>
-            </button>
+           
+            <div class="btn_menu_responsive_carga">
+              <button aria-label="menu"  onClick={toggleMenu}>
+                <i class="fi fi-br-menu-burger"></i>
+              </button>
+              </div>
           </div>
         </div>
       </nav>
@@ -94,27 +93,30 @@ export default function Header() {
               <Link href="/">
                 <div className="menu_img_show_carga">UNIVERSEPAGE</div>
               </Link>
-              <button onClick={toggleMenu}>
-                <i className="fi fi-br-cross"></i>
-              </button>
+              <div class="btn_menu_responsive_carga">
+                <button aria-label="menu"onClick={toggleMenu}>
+                  <i class="fi fi-br-cross"></i>
+                </button>
+              </div>
+             
             </div>
 
             <div className="submenu_list_carga">
-              <ul>
+              <ul>                               
                 <li>
-                  <button onClick={() => toggleSubmenu(1)}>
-                    SERVICIOS <i className="fi fi-rr-caret-down"></i>
-                  </button>
-                  {isSubmenu === 1 && (
-                    <ul className="submenu_item">
-                      <li><Link href="/pagina-web" onClick={toggleMenu}>Página web</Link></li>
-                      <li><Link href="/tienda-en-linea" onClick={toggleMenu}>Tienda en línea</Link></li>
-                      <li><Link href="/desarrollo-web" onClick={toggleMenu}>Desarrollo de software</Link></li>
-                      <li><Link href="/hosting" onClick={toggleMenu}>Hosting y correo</Link></li>
-                      <li><Link href="/gestion-web" onClick={toggleMenu}>Administración de sitios</Link></li>
-                      <li><Link href="/auditoria-web" onClick={toggleMenu}>Auditoría web</Link></li>
-                    </ul>
-                  )}
+                
+                <div onClick={() => toggleSubmenu(1)}>  SERVICIOS <i className="fi fi-rr-caret-down"></i></div>
+
+								{isSubmenu === 1 &&(
+                  <ul className='submenu_item'>
+                    <li> <Link href="/pagina-web" onClick={toggleMenu}>Página web</Link></li>
+                    <li> <Link href="/tienda-en-linea" onClick={toggleMenu}>Tienda en línea</Link></li>
+                    <li> <Link href="/desarrollo-web" onClick={toggleMenu}>Desarrollo de software</Link></li>
+                    <li> <Link href="/hosting" onClick={toggleMenu}>Hosting y correo</Link></li>
+                    <li> <Link href="/gestion-web" onClick={toggleMenu}>Administración de sitios</Link></li>
+                    <li> <Link href="/auditoria" onClick={toggleMenu}>Auditoría web</Link></li>
+                   </ul>
+                  )}                                                           
                 </li>
 
                 <li><Link href="/cotizador" onClick={toggleMenu}>COTIZADOR</Link></li>

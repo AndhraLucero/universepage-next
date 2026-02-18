@@ -18,11 +18,10 @@ export default function MoreServices() {
           {/* Capacitación */}
           <div className="box_more_services">
             <div className="more_service_img">
-              <Image
-                src={capacitacion}
+              <img
+                src='/assets/images/capacitacion.webp'
                 alt="Capacitación universepage - Diseño web"
-                width={120}
-                height={120}
+                
               />
             </div>
             <div className="more_service_title">
@@ -40,11 +39,10 @@ export default function MoreServices() {
           {/* Analytics */}
           <div className="box_more_services">
             <div className="more_service_img">
-              <Image
-                src={analitycs}
+              <img
+                src='/assets/images/analitycs.webp'
                 alt="Analytics universepage - Diseño web"
-                width={120}
-                height={120}
+               
               />
             </div>
             <div className="more_service_title">
@@ -62,11 +60,10 @@ export default function MoreServices() {
           {/* Responsive */}
           <div className="box_more_services">
             <div className="more_service_img">
-              <Image
-                src={responsive}
+              <img
+                src='/assets/images/responsive.webp'
                 alt="Diseños responsivos universepage - Diseño web"
-                width={120}
-                height={120}
+           
               />
             </div>
             <div className="more_service_title">
@@ -84,11 +81,10 @@ export default function MoreServices() {
           {/* Soporte */}
           <div className="box_more_services">
             <div className="more_service_img">
-              <Image
-                src={soporte}
+              <img
+                src='/assets/images/soporte.webp'
                 alt="Soporte universepage - Diseño web"
-                width={120}
-                height={120}
+               
               />
             </div>
             <div className="more_service_title">

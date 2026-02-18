@@ -71,7 +71,7 @@ export default function Servicios() {
         <div className="services_list">
 
           <div className="box_service">
-            <Link href="/hosting-correo">
+            <Link href="/hosting">
               <div className="service_title">
                 <div className="service_icon">
                   <i className="fa-solid fa-server"></i>

@@ -23,7 +23,7 @@ export default function Footer() {
             </div>
 
             <p>
-              Somos una empresa especializada en el desarrollo web, ofrecemos
+              Somos una agencia especializada en el desarrollo web, ofrecemos
               soluciones personalizadas, modernas y funcionales que destacan la
               identidad única de cada proyecto.
             </p>

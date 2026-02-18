@@ -9,11 +9,11 @@ export default function Nosotros() {
         <title>Nosotros | Desarrollo Web Profesional en México</title>
         <meta
           name="description"
-          content="Somos una empresa mexicana especializada en desarrollo web, diseño de páginas web y software a la medida para negocios en México."
+          content="Somos una agencia mexicana especializada en desarrollo web, diseño de páginas web y software a la medida para negocios en México."
         />
         <meta
           name="keywords"
-          content="desarrollo web, diseño web, páginas web en México, empresa de desarrollo web"
+          content="desarrollo web, diseño web, páginas web en México, agencia de desarrollo web"
         />
       </Head>
 
@@ -23,138 +23,205 @@ export default function Nosotros() {
       <section className="about">
         <div className="container content_about">
           <div className="about_img">
-            <Image
-              src="/assets/images/administracion.png"
-              alt="Empresa de desarrollo web en México"
-              width={500}
-              height={400}
-              priority
+            <img
+              src="/assets/images/about.jpg"
+              alt="agencia de desarrollo web en México"                       
             />
           </div>
 
           <div className="about_text_box">
-            <h1>Soluciones reales, tus ideas al siguiente nivel</h1>
-            <h2>¿Quiénes somos?</h2>
-            <p>
-              Somos una empresa mexicana especializada en desarrollo web y
-              software. Combinamos estrategia, diseño y tecnología para crear
-              soluciones digitales modernas, funcionales y escalables.
-            </p>
-            <p>
-              Ayudamos a negocios y emprendedores a fortalecer su presencia
-              digital en todo México mediante soluciones web profesionales.
-            </p>
+            
+            <div className="about_text">
+
+            
+                <h1>Soluciones reales, tus ideas al siguiente nivel</h1>
+                <h2>¿Quiénes somos?</h2>
+                <p>
+                Somos una agencia mexicana especializada en desarrollo web y
+                software. Combinamos estrategia, diseño y tecnología para crear
+                soluciones digitales modernas, funcionales y escalables.
+                </p>
+                <p>
+                Ayudamos a negocios y emprendedores a fortalecer su presencia
+                digital en todo México mediante soluciones web profesionales.
+                </p>
+            </div>
           </div>
         </div>
       </section>
 
       {/* HISTORIA */}
-      <section id="nuestra_historia">
-        <div className="container">
-          <h2>Nuestra historia</h2>
-          <h3>El comienzo</h3>
-          <p>
-            En 2020, un grupo de desarrolladores decidió unir experiencia y
-            creatividad con una visión clara: construir productos digitales que
-            realmente generen valor.
-          </p>
-          <p>
-            Desde entonces, la capacitación constante y la adopción de nuevas
-            tecnologías han sido pilares fundamentales de nuestro crecimiento.
-          </p>
-          <p>
-            Hoy seguimos evolucionando para ofrecer soluciones cada vez más
-            sólidas, seguras y eficientes.
-          </p>
+       <section id='nuestra_historia'>
+        <div className='historia'>
+            <div  className='container'>
+                <div className='historia_title'>
+                    <h2>Nuestra historia</h2>
+                    <h3>El comienzo</h3>
+                </div>
+                <div className='nuestra_historia'>
+                    <div className='historia_text'>
+                        <p>Hace cuatro años, en el 2020, un grupo de entusiastas se unió con una visión compartida: transformar ideas en realidad a través del poder de la web. Fue un tiempo de descubrimientos, desafíos y un compromiso inquebrantable con el aprendizaje constante.
+                        </p>
+                        <p>Desde el primer día, nos dimos cuenta de que en el mundo digital, la única constante es el cambio. Por eso, nos comprometimos a estar siempre un paso adelante. 
+                        </p>
+                       
+                        <p>La capacitación se convirtió en una parte esencial de nuestro viaje. Cada nueva tecnología, cada tendencia emergente, se convirtió en una oportunidad para crecer y mejorar.</p>
+                        
+                    </div>
+                    <div className='historia_mision'>                    
+                        <p>A lo largo de este año, nos embarcaremos en una iniciativa significativa para elevar aún más la calidad de nuestros servicios.</p>
+                        <h3>¡2025! Mejores servicios</h3>
+                        <p style={{fontWeight:'500'}}> Estamos emocionados de anunciar que estaremos trabajando en la obtención de certificaciones de clase mundial y en la implementación de servidores propios para brindarles una experiencia aún más sólida y confiable.</p>
+                    </div>
+                   
+                    
+                </div>
+                {/*<div className=''>
+                        <h3>¡2024! Mejores servicios</h3>
+                        <p> Estamos emocionados de anunciar que estaremos trabajando en la obtención de certificaciones de clase mundial y en la implementación de servidores propios para brindarles una experiencia aún más sólida y confiable.
+                        </p>
+                                               
+
+                    </div>*/}
+            </div>
         </div>
-      </section>
+    </section>
 
       {/* MISIÓN Y VISIÓN */}
-      <section className="mision">
-        <div className="container mision_container">
-          <div className="mision_content">
-            <Image
-              src="/assets/images/nosotros/proposito.png"
-              alt="Misión desarrollo web"
-              width={80}
-              height={80}
-            />
-            <div>
-              <h3>Misión</h3>
-              <p>
-                Brindar soluciones de desarrollo web y software a la medida que
-                impulsen la presencia digital de nuestros clientes.
-              </p>
+          <section className='mision'>
+        <div className='container'>
+         <div className='mision_container'>
+            <div className='mision_content'>                
+                <div className='mision_content_img'>
+                    <img src="/assets/images/nosotros/proposito.png" alt='mision de universepage'/>
+                </div>
+                <div className='mision_content_text'>                    
+                    <h3>Misión</h3>
+                    <p>Brindar soluciones de desarrollo de software personalizadas y de calidad, incluyendo páginas web y aplicaciones, que satisfagan las necesidades únicas de nuestros clientes. {/*Nos comprometemos a ofrecer un servicio excepcional, centrado en la excelencia técnica y la atención al cliente, para facilitar su presencia en línea.*/}</p>
+                </div>                
             </div>
-          </div>
-
-          <div className="mision_content">
-            <Image
-              src="/assets/images/nosotros/binocular.png"
-              alt="Visión desarrollo web"
-              width={80}
-              height={80}
-            />
-            <div>
-              <h3>Visión</h3>
-              <p>
-                Ser una empresa referente en México por nuestra innovación,
-                calidad y compromiso con cada proyecto.
-              </p>
+            <div className='mision_content'>                
+                <div className='mision_content_img'>
+                    <img src="/assets/images/nosotros/binocular.png" alt='mision de universepage'/>
+                </div>
+                <div className='mision_content_text'>                    
+                    <h3>Visión</h3>
+                    <p>Ser líderes en el mercado mexicano de desarrollo de software, siendo reconocidos por nuestra innovación, confiabilidad y compromiso con la satisfacción del cliente. {/*Nos esforzamos por gestionar un porcentaje significativo de las páginas web de las empresas en México, ayudando a impulsar su crecimiento y presencia digital en un mundo cada vez más conectado.*/}</p>
+                </div>                
             </div>
-          </div>
+         </div>
         </div>
-      </section>
+    </section>
+ 
 
       {/* VALORES */}
-      <section className="valores">
-        <div className="container">
-          <h2>Nuestros valores</h2>
 
-          <div className="valores_list">
-            <Valor title="Calidad" img="/assets/images/nosotros/servicio.png" />
-            <Valor title="Innovación" img="/assets/images/nosotros/cohete.png" />
-            <Valor title="Responsabilidad" img="/assets/images/nosotros/convenio.png" />
-            <Valor title="Adaptabilidad" img="/assets/images/nosotros/adaptacion.png" />
-            <Valor title="Creatividad" img="/assets/images/nosotros/inspiracion.png" />
-            <Valor title="Ética" img="/assets/images/nosotros/principios-morales.png" />
-          </div>
+      <section className='valores'>
+        <div className='container'>
+            <div className='valores_title'>
+                <h2>Nuestros valores</h2>            
+            </div>
+            <div className='valores_list'>
+                <div className='valores_box'>
+                    <img src="/assets/images/nosotros/servicio.png" alt='Calidad universepage' />
+                    <h3>Calidad</h3>
+                    <p>Nos comprometemos a ofrecer sitios web de alta calidad que cumplan con los estándares modernos de diseño, usabilidad y rendimiento.</p>
+                </div>
+                <div className='valores_box'>
+                    <img src="/assets/images/nosotros/cohete.png" alt='innovación universepage' />
+                    <h3>Innovación</h3>
+                    <p>Nos mantenemos al tanto de las últimas tendencias tecnológicas y de diseño web para ofrecer soluciones innovadoras a nuestros clientes.</p>
+                </div>
+                <div className='valores_box'>
+                    <img src="/assets/images/nosotros/convenio.png" alt='responsabilidad universepage' />
+                    <h3>Responsabilidad</h3>
+                    <p>Asumimos la responsabilidad de tus proyectos y nos comprometemos con ellos. Cumpliendo con los plazos y entregando resultados que cumplan o superen las expectativas.</p>
+                    
+                </div>
+            </div>
+            <div className='valores_list'>
+                <div className='valores_box'>
+                    <img src="/assets/images/nosotros/adaptacion.png" alt='adaptabilidad universepage' />
+                    <h3>Adaptabilidad</h3>
+                    <p>El mundo digital está en constante cambio. Somos capaces de adaptarnos rápidamente a las nuevas tecnologías y demandas del mercado.</p>
+                </div>
+
+                <div className='valores_box'>
+                    <img src="/assets/images/nosotros/inspiracion.png" alt='creatividad universepage' />
+                    <h3>Creatividad</h3>
+                    <p>Fomentamos un ambiente creativo para generar ideas únicas y soluciones innovadoras en el diseño y desarrollo de todos los proyectos.</p>
+                    
+                </div>
+                <div className='valores_box'>
+                    <img src="/assets/images/nosotros/principios-morales.png" alt='etica universepage' />
+                    <h3>Ética</h3>
+                    <p>Trabajamos de manera ética en todas las áreas, desde la gestión de datos hasta las prácticas de desarrollo. Creemos que la integridad puede construir una reputación sólida.</p>
+                    
+                </div>
+            </div>
         </div>
-      </section>
+    </section>
 
       {/* EQUIPO */}
-      <section className="nuestro_team">
-        <div className="container">
-          <h2>Nuestro equipo</h2>
-          <p>
-            Somos un equipo multidisciplinario apasionado por la tecnología, el
-            diseño y la innovación digital.
-          </p>
-
-          <div className="team">
-            <TeamCard
-              img="/assets/images/team1.webp"
-              name="David Reyes"
-              role="Diseñador Web"
-            />
-            <TeamCard
-              img="/assets/images/team2.webp"
-              name="Ximena Díaz"
-              role="Diseñadora Web"
-            />
-            <TeamCard
-              img="/assets/images/team4.jpg"
-              name="Gustavo Cárdenas"
-              role="Programador Web"
-            />
-            <TeamCard
-              img="/assets/images/team3.jpg"
-              name="Diana Hernández"
-              role="Programadora Web"
-            />
-          </div>
+  
+      <section className='nuestro_team'>
+        <div className='container'>
+            <div className='team_title'>
+                <h2>Nuestro equipo</h2> 
+                <h3>Colaboradores</h3>
+                <p>Nuestra historia no sería completa sin mencionar al equipo increíble que ha estado detrás de cada línea de código y diseño. Somos un grupo diverso de mentes creativas, unidas por la pasión por la innovación.</p>           
+            </div>
+            <div className='team'>
+                <div className='box_team'>
+                    <div className='box_team_img'>
+                        <img src="/assets/images/team1.webp" alt='universepage team' />                    
+                    </div>
+                    <label>
+                        Diseñador web
+                    </label>
+                    <label>
+                        David Reyes
+                    </label>
+                </div>
+                <div className='box_team'>
+                    <div className='box_team_img'>
+                        <img src="/assets/images/team2.webp"alt='universepage team' />
+                    </div>
+                    <label>
+                        Diseñador web
+                    </label>
+                    <label>
+                        Ximena Díaz
+                    </label>
+                </div>
+                <div className='box_team'>
+                    <div className='box_team_img'>
+                        <img src="/assets/images/team4.jpg" alt='universepage team' />
+                        
+                    </div>
+                    <label>
+                        Programador web
+                    </label>
+                    <label>
+                        Diana Hernández
+                    </label>
+                </div>
+                <div className='box_team'>
+                    <div className='box_team_img'>
+                        <img src="/assets/images/team3.jpg" alt='universepage team' /> 
+                    </div>
+                    <label>
+                        Programador web
+                    </label>
+                    <label>
+                        Gustavo Cárdenas
+                    </label>
+                </div>
+            </div>
         </div>
-      </section>
+
+    </section>
+
 
       <Footer />
     </>

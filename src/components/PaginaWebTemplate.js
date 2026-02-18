@@ -172,10 +172,14 @@ export default function PaginaWebTemplate({
 
         <PlanesPaginaWeb />
 
-        {config.comparar && <CompararPlanesPaginaWeb />}
+        {/*{config.comparar && <CompararPlanesPaginaWeb /> }*/}
         </div>
     </section>
     )}
+    <section className="comparar-planes">
+        <CompararPlanesPaginaWeb />
+
+    </section>
 
 
 {/*}    <section className="planes_web">

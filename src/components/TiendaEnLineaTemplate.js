@@ -146,7 +146,12 @@ export default function TiendaEnLineaTemplate({
     </div>
   </section>
 )}
-    <CompararPlanesTienda />
+    
+    <section className="comparar-planes">
+        <CompararPlanesTienda />
+
+    </section>
+
     <BeneficiosPaginaWeb />
     <FormularioContacto />
     <Herramientas />

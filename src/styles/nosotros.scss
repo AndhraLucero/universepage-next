@@ -120,7 +120,11 @@
     justify-content: center;
     font-weight: 500;
 }
-
+.about_text{
+    h2{
+        color: #2874a6;
+    }
+}
 @media (max-width: 768px) {
     .nuestra_historia{
         display: block;
@@ -131,10 +135,36 @@
     .historia_mision{
         width: 100%;
     }
+    .mision_container {
+        width: 100%;
+        display: grid;
+        margin: .5rem 0rem;
+   
+    }
+    .mision_content{
+        display: grid;   
+        width: 100%;    
+        margin: .5rem 0rem;
+    }
+    .mision_content_text {
+            width: 100%;            
+        }
     .valores_list{
         display: block;
+        .valores_box{
+            width: 100%;
+
+        }
     }
     .team{
         display: block;
+    }
+}
+@media screen and (max-width: 400px) {
+    .mision_container {
+        width: 100%;
+        display: grid;
+        margin: .5rem 0rem;
+   
     }
 }
