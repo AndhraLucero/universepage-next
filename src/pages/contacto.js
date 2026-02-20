@@ -42,7 +42,7 @@ export default function Contacto() {
       setAlerta(true);
     } catch (error) {
       console.error("Error al enviar el correo:", error);
-      alert("Error al enviar el correo");
+      alert("Error al enviar el correo, f3");
     }
   };
 
