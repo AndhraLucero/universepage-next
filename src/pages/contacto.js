@@ -17,7 +17,7 @@ export default function Contacto() {
   const enviarCorreo = async () => {
     try {
       await axios.post(
-        "https://7cwma7t8s5.execute-api.us-east-1.amazonaws.com/prod/webservice",
+        "https://3cwma7t8s4.execute-api.us-east-1.amazonaws.com/prod/webservice",
         {
           nombre,
           empresa,
